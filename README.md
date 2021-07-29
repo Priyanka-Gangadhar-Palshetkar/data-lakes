@@ -57,7 +57,7 @@ columns:- start_time, hour, day, week, month, year, weekday
 
 1. Input dataset **song_data** provides us with columns that make up the **songs** and **artists** table.
 2. Input dataset **log_data** provides us with columns that make up the **time** and **users** table.
-3. The **songplays** table is then built by joining the **songs** and **log_data** on song title column.
+3. The **songplays** table is then built by joining the **songs** and **log_data** on song title and artist name column.
 
 ### Project Structure
 
